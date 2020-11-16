@@ -1,0 +1,37 @@
+
+     h1{
+        text-align: center;
+    }
+     h2{
+        text-align: center;
+    }
+    section{
+        text-align: center;
+    }
+
+    a:hover{
+        color: blue;
+    }
+
+    a:default{
+        color: black;
+    }
+
+    a:focus{
+        color: chartreuse;
+    }
+
+    a:active{
+        color: chocolate;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body{
+        background-color: #C3DAFE;
+    }
+
