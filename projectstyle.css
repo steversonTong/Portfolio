@@ -4,3 +4,29 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
+  section{
+    text-align: center;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:default{
+    color: black;
+}
+
+a:focus{
+    color: black;
+}
+
+.col-3{
+    margin-left: 30px;
+}
+
+.col {
+    margin-left: 110px;
+    margin-right: 50px;
+
+}
