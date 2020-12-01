@@ -1,8 +1,20 @@
-section{
-    text-align: center;
-    margin-left: auto;
+#textsec{
+    text-align: left;
+    margin-left: 150px;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 400px;
+}
+
+#spheresec {
+    margin-left: 1050px;
+    margin-right: auto;
+    margin-top: -350px;
+    margin-bottom: auto;
+}
+
+#canvas {
+    width: 700px;
+    height: 700px;
 }
 
 :root {
