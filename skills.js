@@ -29,15 +29,15 @@ const texts = [
   'C++', 'Data Structure', 'Algorithm', 
   'C#', 'UX', 'UI', 'JSON', 'JQuery', 'npm',
   'AJAX', 'API'
-
 ];
 const counts = [1,2,4,5,4,2,1];
 
 const options = {
-  tilt: Math.PI / 9,
-  initialVelocityX: 0.09,
-  initialVelocityY: 0.09,
-  initialRotationX: Math.PI * 0.14,
+  tilt: 2,
+  initialVelocityX: 0.45,
+  initialVelocityY: 0.45,
+  initialRotationX: 2,
+  initialRotationY: 2,
   initialRotationZ: 0
 };
 
@@ -47,11 +47,11 @@ wordSphere(canvas, texts, counts, options);
 function wordSphere(canvas, texts, counts, options) {
   const π = Math.PI; 
   const {
-    width = 500,
-    height = 500,
-    radius = 150,
+    width = 700,
+    height = 700,
+    radius = 250,
     padding = 50,
-    fontSize = 22,
+    fontSize = 24,
     tilt = 0,
     initialVelocityX = 0,
     initialVelocityY = 0,
