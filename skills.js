@@ -34,8 +34,8 @@ const counts = [1,2,4,5,4,2,1];
 
 const options = {
   tilt: 2,
-  initialVelocityX: 0.3,
-  initialVelocityY: 0.3,
+  initialVelocityX: 0.2,
+  initialVelocityY: 0.2,
   initialRotationX: 2,
   initialRotationY: 2,
   initialRotationZ: 0
