@@ -27,8 +27,8 @@ const texts = [
   'HTML', 'Javascript', 'CSS', 'Bootstrap', 
   'tailwindcss', 'Node', 'mySQL', 'Git', 
   'C++', 'Data Structure', 'Algorithm', 
-  'C#', 'UX', 'UI', 'JSON', 'JQuery', 'npm',
-  'AJAX', 'API'
+  'C#', 'UX/UI', 'JSON', 'JQuery', 'npm',
+  'AJAX', 'API', 'Express'
 ];
 const counts = [1,2,4,5,4,2,1];
 
