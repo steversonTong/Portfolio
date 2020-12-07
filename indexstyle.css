@@ -4,6 +4,12 @@ section{
     margin-right: auto;
     padding-top: 20%;
     margin-bottom: auto;
+    max-width: 40%;
+}
+@media only screen and (max-width: 600px){
+  section {
+    max-width: 90%
+  }
 }
 
 :root {
