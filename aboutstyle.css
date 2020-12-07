@@ -231,3 +231,13 @@
       .solar #solarIcon {
         display: block;
       }
+
+      #bioTextWrapper{
+        max-width: 26%;
+        margin: auto;
+      }
+      @media only screen and (max-width: 600px){
+        #bioTextWrapper {
+          max-width: 70%
+        }
+      }

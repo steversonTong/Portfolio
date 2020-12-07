@@ -42,13 +42,19 @@ const options = {
 };
 
 wordSphere(canvas, texts, counts, options);
+
+window.addEventListener("resize", ()=> {
+  console.log("resizing...")
+  const size = window.innerWidth/2;
+  wordSphere(canvas, texts, counts, options, {width:size, height:size});
+})
  
 
-function wordSphere(canvas, texts, counts, options) {
+function wordSphere(canvas, texts, counts, options, size = {width: 700, height:700}) {
   const π = Math.PI; 
   const {
-    width = 700,
-    height = 700,
+    // width = size.width,
+    // height = size.height,
     radius = 250,
     padding = 50,
     fontSize = 24,
@@ -58,6 +64,8 @@ function wordSphere(canvas, texts, counts, options) {
     initialRotationX = 0,
     initialRotationZ = 0,
   } = options;
+
+  const {width, height} = size;
   
   let vx = initialVelocityX, vy = initialVelocityY;
   let rx = initialRotationX, rz = initialRotationZ;
