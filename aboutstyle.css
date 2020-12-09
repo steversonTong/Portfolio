@@ -233,7 +233,7 @@
       }
 
       #bioTextWrapper{
-        max-width: 26%;
+        max-width: 40%;
         margin: auto;
       }
       @media only screen and (max-width: 600px){
