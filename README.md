@@ -1,4 +1,4 @@
 # Portfolio
 
-Welcome to my GitHub Profile, my portfolio and mroe about me is on my website!
-Make sure to check it out! https://www.stevetong.com
+Welcome to my GitHub Profile, this is my website where you can learn about me!
+Feel free to check it out and contact me if you have any regards! https://www.stevetong.com
