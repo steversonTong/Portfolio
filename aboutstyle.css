@@ -22,10 +22,6 @@ ion-icon {
   padding: 3%;
 }
 
-.logo-github:hover {
-  color: #1e1e24;
-}
-
 @media only screen and (max-width: 600px) {
   #bioTextWrapper {
     max-width: 90%;
