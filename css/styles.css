@@ -100,6 +100,7 @@ img {
 .section_title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  margin-bottom: var(--mb-2);
 }
 
 .section_subtitle {
