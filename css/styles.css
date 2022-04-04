@@ -642,6 +642,7 @@ img {
 .project_bg{
   background-color: var(--first-color-second);
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .project_title{
@@ -1042,7 +1043,7 @@ body.dark-theme{
   .project_container{
     background-color: var(--first-color-second);
     border-radius: 1rem;
-    padding: 3rem 2.5rem 0;
+    padding: 3rem 2.5rem 3rem 2.5rem ;
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
   }
