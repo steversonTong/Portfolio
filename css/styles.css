@@ -106,12 +106,19 @@ img {
 .section_subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-3);
 }
 
 .section_title, 
 .section_subtitle {
   text-align: center;
+}
+
+.section_title-about,
+.section_title-skills {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+  text-align: center;
+  margin-bottom: var(--mb-3);
 }
 
 .container {
@@ -569,8 +576,3 @@ img {
   transform: translate(6px, -7px);
 }
 
-.section_title-qualification {
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
-  text-align: center;
-}
