@@ -912,3 +912,159 @@ body.dark-theme{
     margin-top: -5rem;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body{
+    margin: 0;
+  }
+
+  .section{
+    padding: 6rem 0 2rem;
+  }
+
+  .section_title-about,
+  .section_title-skills{
+    margin-bottom: 4rem;
+  }
+
+  .section_subtitle{
+    margin-bottom: 4rem;
+  }
+
+  .header{
+    top: 0;
+    bottom: initial;
+  }
+
+  .header,
+  .main,
+  .footer_container{
+    padding: 0 1rem;
+  }
+
+  .nav{
+    height: calc(var(--header-height) + 1.5rem);
+    column-gap: 1rem;
+  }
+
+  .nav_icon,
+  .nav_close,
+  .nav_toggle{
+    display: none;
+  }
+
+  .nav_list{
+    display: flex;
+    column-gap: 2rem;
+  }
+
+  .nav_menu{
+    margin-left: auto;
+  }
+  .change-theme{
+    margin: 0;
+  }
+
+  .home_container{
+    row-gap: 5rem;
+  }
+
+  .home_content{
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+  }
+
+  .home_blob{
+    width: 270px;
+  }
+
+  .home_scroll{
+    display: block;
+  }
+
+  .home_scroll-button {
+    margin-left: 3rem;
+  }
+
+  .about_container{
+    column-gap: 5rem;
+  }
+
+  .about_img{
+    width: 400px;
+  }
+
+  .about_description{
+    text-align: initial;
+  }
+
+  .about_info{
+    justify-content: space-between;
+  }
+
+  .about_buttons{
+    justify-content: initial;
+  }
+
+  .qualification_tabs{
+    justify-content: center;
+  }
+
+  .qualification_button{
+    margin: 0 var(--mb-1);
+  }
+
+  .qualification_sections{
+    grid-template-columns: 0.5fr;
+  }
+
+  .portfolio_img{
+    width: 320px;
+  }
+
+  .portfolio_content{
+    align-content: center;
+  }
+
+  .project{
+    text-align: initial;
+  }
+
+  .project_bg{
+    background: none;
+  }
+
+  .project_container{
+    background-color: var(--first-color-second);
+    border-radius: 1rem;
+    padding: 3rem 2.5rem 0;
+    grid-template-columns: 1fr max-content;
+    column-gap: 3rem;
+  }
+
+  .project_data{
+    padding-top: 0.8rem;
+  }
+
+  .footer_container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer_bg{
+    padding: 3rem 0 3.5rem;
+  }
+
+  .footer_links{
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+
+  .footer_socials{
+    justify-self: flex-end;
+  }
+}
