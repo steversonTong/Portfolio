@@ -1063,6 +1063,7 @@ body.dark-theme{
   .footer_links{
     flex-direction: row;
     column-gap: 2rem;
+    white-space: nowrap;
   }
 
   .footer_socials{
