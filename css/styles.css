@@ -877,3 +877,38 @@ body.dark-theme{
     width: 200px;
   }
 }
+
+@media screen and (min-width: 568px){
+  .home_content{
+    grid-template-columns: max-content 1fr 1fr;
+  }
+
+  .home_data{
+    grid-column: initial;
+  }
+
+  .home_img{
+    order: 1;
+    justify-self: center;
+  }
+
+  .qualification_sections{
+    display: grid;
+    grid-template-columns: 0.6fr;
+    justify-content: center;
+  }
+
+  .about_container,
+  .portfolio_content,
+  .project_container,
+  .contact_container,
+  .footer_container
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about_img{
+    width: 300px;
+    margin-top: -5rem;
+  }
+}
