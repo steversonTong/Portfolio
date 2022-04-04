@@ -767,3 +767,7 @@ img {
 .footer_social{
   color: #fff;
 }
+
+.active-link{
+  color: var(--first-color);
+}
