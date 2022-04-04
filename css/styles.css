@@ -737,6 +737,7 @@ img {
 .footer_title{
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
+  white-space: nowrap;
 }
 
 .footer_subtitle{
@@ -1054,6 +1055,7 @@ body.dark-theme{
 
   .footer_container{
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 7rem;
   }
 
   .footer_bg{
@@ -1068,6 +1070,7 @@ body.dark-theme{
 
   .footer_socials{
     justify-self: flex-end;
+    white-space: nowrap;
   }
 }
 
