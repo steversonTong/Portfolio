@@ -442,6 +442,10 @@ img {
   width: 90%;
 }
 
+.skills_WPfront{
+  width: 85%;
+}
+
 .skills_react{
   width: 80%;
 }
@@ -460,6 +464,10 @@ img {
 
 .skills_node{
   width: 90%;
+}
+
+.skills_WPback{
+  width: 80%;
 }
 
 .skills_express{
